@@ -135,7 +135,7 @@ define(function(require) {
 									columns: {
 										expected: {
 											mandatory: self.appFlags.csvOnboarding.columns.mandatory,
-											optional: []
+											optional: ['password']
 										},
 										actual: results.meta.fields
 									}
@@ -613,6 +613,7 @@ define(function(require) {
 						first_name: data.first_name,
 						last_name: data.last_name,
 						username: data.email,
+						password: (data.password && typeof data.password !== 'undefined')?data.password:monster.util.randomString(12),
 						caller_id: {
 							internal: {
 								name: callerIdName,
