@@ -4,19 +4,12 @@
 	"i18n": {
 		"de-DE": {
 			"label": "CSV-Onboarding",
-			"description": "",
-			"extended_description": "",
-			"features": [
-				""
-			]
+			"description": "CSV"
 		},
 		"en-US": {
 			"label": "CSV Onboarding",
-			"description": "",
-			"extended_description": "",
-			"features": [
-				""
-			]
+			"description": "CSV upload to create users and devices",
+			"extended_description": ""
 		}
 	},
 	"tags": [
@@ -31,6 +24,5 @@
 		"",
 		""
 	],
-	"phase": "alpha",
 	"pvt_type": "app"
 }
